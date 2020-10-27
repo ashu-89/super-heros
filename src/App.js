@@ -1,10 +1,21 @@
 
 //import './App.css';
 
+import { useState } from "react";
+import NavComp from "./NavComp";
+import SearchBoxComp from "./SearchBoxComp";
+import SearchResults from "./SearchResults";
+
 function App() {
+  
+
   return (
     <div className="App">
-      Hello World ! Ashu is a G.O.A.T developer \/,
+      Hi
+      <NavComp></NavComp>
+      <SearchBoxComp></SearchBoxComp>
+      <SearchResults></SearchResults>
+      
     </div>
   );
 }
