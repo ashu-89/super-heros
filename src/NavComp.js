@@ -2,8 +2,8 @@ import React from 'react';
 
 function NavComp(props) {
     return (
-        <div>
-            Nav
+        <div className="NavComp">
+            <span id="logo">SuperHero Hunter</span>
         </div>
     );
 }

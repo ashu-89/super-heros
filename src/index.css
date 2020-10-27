@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background : #f1f1f1;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.NavComp {
+  height: 69px;
+  padding-left: 11px;
+  padding-right: 11px;
+  display: flex;
+  align-items: center;
+  border: 2px solid #e6e6e6 ;
+  background: #fff;
+}
+
+#logo {
+  font-size: 29px;
+  font-weight: 699;
 }
