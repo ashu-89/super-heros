@@ -12,8 +12,12 @@ function App() {
   return (
     <div className="App">
       <NavComp></NavComp>
-      <SearchBoxComp></SearchBoxComp>
-      <SearchResults></SearchResults>
+      <div className="main">
+        <SearchBoxComp></SearchBoxComp>
+        <br></br>
+        <SearchResults></SearchResults>
+        
+      </div>
       
     </div>
   );
