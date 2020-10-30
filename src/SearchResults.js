@@ -1,9 +1,11 @@
 import React from 'react';
+import SearchResultItem from './SearchResultItem';
 
 function SearchResults(props) {
     return (
         <div>
-           Search Results component. 
+            <SearchResultItem></SearchResultItem>            
+            
         </div>
     );
 }
