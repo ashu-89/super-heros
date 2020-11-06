@@ -18,6 +18,7 @@ code {
   padding-left: 11px;
   padding-right: 11px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   border: 2px solid #e6e6e6 ;
   background: #fff;
@@ -26,6 +27,13 @@ code {
 #logo {
   font-size: 29px;
   font-weight: 699;
+  width: 400px;
+}
+
+#marq {
+  font-weight: 699;
+  color: red;
+  background-color: black;
 }
 
 .main {

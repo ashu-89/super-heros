@@ -22,10 +22,15 @@ function App() {
   function searchSuperHeroes(e){
       const searchTerm = e.target.value;
       console.log("searchSuperHeroes -> searchTerm", searchTerm);
+      
       setSearchText(searchTerm);
+      if(searchTerm.length === 0){
+        setSearchData([]);
+      }     
+     
       if(searchTerm.length > 3){
           callApi();
-      }
+      }   
 
 
   }

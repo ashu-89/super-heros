@@ -2,7 +2,7 @@ import React from 'react';
 import SearchResultItem from './SearchResultItem';
 
 function SearchResults(props) {
-    const{searchData} = props;
+    const{searchData = []} = props;
     console.log("api response",searchData);
     return (
         <div>
